@@ -11,7 +11,6 @@ import UIKit
 class PushViewController: UIViewController {
     var navigationTitle: String = ""
     var selectCell: LSCollectionCell!
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -57,7 +56,7 @@ extension PushViewController: UICollectionViewDataSource,UICollectionViewDelegat
     }
 }
 
-extension PushViewController: UINavigationControllerDelegate {
+extension PushViewController: UINavigationControllerDelegate{
     func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         if operation == UINavigationControllerOperation.push {
             return LSTransition()

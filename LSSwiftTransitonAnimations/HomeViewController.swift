@@ -44,8 +44,12 @@ extension HomeViewController : UITableViewDataSource,UITableViewDelegate {
         case 0:
             self.performSegue(withIdentifier: "push&pop", sender: nil)
             break
-        case 1: break
-        case 2: break
+        case 1:
+            self.performSegue(withIdentifier: "modal", sender: nil)
+            break
+        case 2:
+            self.performSegue(withIdentifier: "segue", sender: nil)
+            break
             
         default: break
         }

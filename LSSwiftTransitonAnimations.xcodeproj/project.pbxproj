@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		0247177C1E9F6D6300451145 /* LSPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247177B1E9F6D6300451145 /* LSPopTransition.swift */; };
+		0247177E1EA06B1D00451145 /* LSNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247177D1EA06B1D00451145 /* LSNavigationControllerDelegate.swift */; };
+		027E00161EA0AA3D002A423C /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E00151EA0AA3D002A423C /* PresentViewController.swift */; };
+		027E00181EA0AA50002A423C /* DismissViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E00171EA0AA50002A423C /* DismissViewController.swift */; };
+		027E001A1EA0B41B002A423C /* LSPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E00191EA0B41B002A423C /* LSPresentTransition.swift */; };
+		027E001C1EA0B42D002A423C /* LSDismissTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E001B1EA0B42D002A423C /* LSDismissTransition.swift */; };
 		02C23E3D1E9B8E2400777AC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E3C1E9B8E2400777AC6 /* AppDelegate.swift */; };
 		02C23E3F1E9B8E2400777AC6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E3E1E9B8E2400777AC6 /* HomeViewController.swift */; };
 		02C23E421E9B8E2400777AC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C23E401E9B8E2400777AC6 /* Main.storyboard */; };
@@ -18,7 +23,6 @@
 		02C23E6E1E9CBA7C00777AC6 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E6D1E9CBA7C00777AC6 /* PushViewController.swift */; };
 		02C23E701E9CBA8700777AC6 /* ToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E6F1E9CBA8700777AC6 /* ToViewController.swift */; };
 		02C23E721E9CBE3900777AC6 /* LSTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E711E9CBE3900777AC6 /* LSTransition.swift */; };
-		02C23EBE1E9E2B5E00777AC6 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 02C23EBD1E9E2B5E00777AC6 /* 1.jpg */; };
 		02C23EC01E9E2BEC00777AC6 /* LSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23EBF1E9E2BEC00777AC6 /* LSCollectionCell.swift */; };
 		02C23EC91E9E2C2100777AC6 /* Dosis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02C23EC21E9E2C2100777AC6 /* Dosis-Bold.otf */; };
 		02C23ECA1E9E2C2100777AC6 /* Dosis-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02C23EC31E9E2C2100777AC6 /* Dosis-ExtraBold.otf */; };
@@ -49,6 +53,11 @@
 
 /* Begin PBXFileReference section */
 		0247177B1E9F6D6300451145 /* LSPopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPopTransition.swift; sourceTree = "<group>"; };
+		0247177D1EA06B1D00451145 /* LSNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSNavigationControllerDelegate.swift; sourceTree = "<group>"; };
+		027E00151EA0AA3D002A423C /* PresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
+		027E00171EA0AA50002A423C /* DismissViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissViewController.swift; sourceTree = "<group>"; };
+		027E00191EA0B41B002A423C /* LSPresentTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPresentTransition.swift; sourceTree = "<group>"; };
+		027E001B1EA0B42D002A423C /* LSDismissTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSDismissTransition.swift; sourceTree = "<group>"; };
 		02C23E391E9B8E2400777AC6 /* LSSwiftTransitonAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSSwiftTransitonAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02C23E3C1E9B8E2400777AC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02C23E3E1E9B8E2400777AC6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -65,7 +74,6 @@
 		02C23E6D1E9CBA7C00777AC6 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
 		02C23E6F1E9CBA8700777AC6 /* ToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToViewController.swift; sourceTree = "<group>"; };
 		02C23E711E9CBE3900777AC6 /* LSTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTransition.swift; sourceTree = "<group>"; };
-		02C23EBD1E9E2B5E00777AC6 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		02C23EBF1E9E2BEC00777AC6 /* LSCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSCollectionCell.swift; sourceTree = "<group>"; };
 		02C23EC21E9E2C2100777AC6 /* Dosis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Bold.otf"; sourceTree = "<group>"; };
 		02C23EC31E9E2C2100777AC6 /* Dosis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.otf"; sourceTree = "<group>"; };
@@ -102,6 +110,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		024717801EA079AB00451145 /* LSTransition */ = {
+			isa = PBXGroup;
+			children = (
+				0247177D1EA06B1D00451145 /* LSNavigationControllerDelegate.swift */,
+			);
+			name = LSTransition;
+			sourceTree = "<group>";
+		};
 		02C23E301E9B8E2400777AC6 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +143,7 @@
 			children = (
 				02C23E3C1E9B8E2400777AC6 /* AppDelegate.swift */,
 				02C23E3E1E9B8E2400777AC6 /* HomeViewController.swift */,
+				024717801EA079AB00451145 /* LSTransition */,
 				02C23E6C1E9CAA7500777AC6 /* segue */,
 				02C23E6B1E9CAA6A00777AC6 /* modal */,
 				02C23E6A1E9CAA5D00777AC6 /* push&pop */,
@@ -134,7 +151,6 @@
 				02C23ED01E9E2DC200777AC6 /* Extension */,
 				02C23E401E9B8E2400777AC6 /* Main.storyboard */,
 				02C23E431E9B8E2400777AC6 /* Assets.xcassets */,
-				02C23EBD1E9E2B5E00777AC6 /* 1.jpg */,
 				02C23E451E9B8E2400777AC6 /* LaunchScreen.storyboard */,
 				02C23E481E9B8E2400777AC6 /* Info.plist */,
 			);
@@ -174,6 +190,10 @@
 		02C23E6B1E9CAA6A00777AC6 /* modal */ = {
 			isa = PBXGroup;
 			children = (
+				027E00151EA0AA3D002A423C /* PresentViewController.swift */,
+				027E00171EA0AA50002A423C /* DismissViewController.swift */,
+				027E00191EA0B41B002A423C /* LSPresentTransition.swift */,
+				027E001B1EA0B42D002A423C /* LSDismissTransition.swift */,
 			);
 			name = modal;
 			sourceTree = "<group>";
@@ -322,7 +342,6 @@
 				02C23ECF1E9E2C2100777AC6 /* Dosis-SemiBold.otf in Resources */,
 				02C23ECB1E9E2C2100777AC6 /* Dosis-ExtraLight.otf in Resources */,
 				02C23E441E9B8E2400777AC6 /* Assets.xcassets in Resources */,
-				02C23EBE1E9E2B5E00777AC6 /* 1.jpg in Resources */,
 				02C23ECD1E9E2C2100777AC6 /* Dosis-Medium.otf in Resources */,
 				02C23E421E9B8E2400777AC6 /* Main.storyboard in Resources */,
 				02C23ECC1E9E2C2100777AC6 /* Dosis-Light.otf in Resources */,
@@ -354,8 +373,13 @@
 			files = (
 				02C23E3F1E9B8E2400777AC6 /* HomeViewController.swift in Sources */,
 				0247177C1E9F6D6300451145 /* LSPopTransition.swift in Sources */,
+				027E00161EA0AA3D002A423C /* PresentViewController.swift in Sources */,
 				02C23E3D1E9B8E2400777AC6 /* AppDelegate.swift in Sources */,
 				02C23EC01E9E2BEC00777AC6 /* LSCollectionCell.swift in Sources */,
+				0247177E1EA06B1D00451145 /* LSNavigationControllerDelegate.swift in Sources */,
+				027E001C1EA0B42D002A423C /* LSDismissTransition.swift in Sources */,
+				027E00181EA0AA50002A423C /* DismissViewController.swift in Sources */,
+				027E001A1EA0B41B002A423C /* LSPresentTransition.swift in Sources */,
 				02C23E721E9CBE3900777AC6 /* LSTransition.swift in Sources */,
 				02C23E6E1E9CBA7C00777AC6 /* PushViewController.swift in Sources */,
 				02C23E701E9CBA8700777AC6 /* ToViewController.swift in Sources */,

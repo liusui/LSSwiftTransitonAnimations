@@ -16,7 +16,7 @@ class LSPoptransition: NSObject, UIViewControllerAnimatedTransitioning {
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
         let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from) as! ToViewController
-        let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to) as! PushViewController
+        let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to) as! PushViewController                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
         let container = transitionContext.containerView
         
         let snapshotView = fromVC.avatarImageView.snapshotView(afterScreenUpdates: false)
