@@ -14,7 +14,7 @@ class LSPresentTransition: NSObject,UIViewControllerAnimatedTransitioning {
     }
     
     func animateTransition(using transitionContext: UIViewControllerContextTransitioning) {
-        let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from) as! PresentViewController
+        let fromVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.from) as! UINavigationController
         let toVC = transitionContext.viewController(forKey: UITransitionContextViewControllerKey.to) as! DismissViewController
         let container = transitionContext.containerView
         container.addSubview(toVC.view)
@@ -29,7 +29,7 @@ class LSPresentTransition: NSObject,UIViewControllerAnimatedTransitioning {
         toVC.view.frame = initalFrame
         toVC.view.layer.anchorPoint = CGPoint(x: 0, y: 0.5)
         toVC.view.layer.position = CGPoint(x: 0, y: initalFrame.height / 2.0)
-        toVC.view.layer.transform = CATransform3DMakeRotation(CGFloat(-Double.pi/2), 0, 1, 0)
+        toVC.view.layer.transform = CATransform3DMakeRotation(CGFloat(-M_PI), 0, 1, 0)
         
         //添加阴影效果
         let shadowLayer = CAGradientLayer()

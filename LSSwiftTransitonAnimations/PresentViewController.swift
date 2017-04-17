@@ -8,12 +8,11 @@
 
 import UIKit
 
-class PresentViewController: UIViewController,UIViewControllerTransitioningDelegate {
+class PresentViewController: UIViewController {
     fileprivate var percentDrivenTransition: UIPercentDrivenInteractiveTransition!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.transitioningDelegate = self
         //手势监听器
         let edgePan = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(edgePanGesture(edgePan:)))
         edgePan.edges = UIRectEdge.right
@@ -24,16 +23,6 @@ class PresentViewController: UIViewController,UIViewControllerTransitioningDeleg
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let secondVC = segue.destination as! DismissViewController
-        secondVC.transitioningDelegate = self
-        let edgePan = UIScreenEdgePanGestureRecognizer(target: self, action: #selector(edgePanGesture(edgePan:)))
-        edgePan.edges = UIRectEdge.left
-        self.view.addGestureRecognizer(edgePan)
-        
-        super.prepare(for: segue, sender: sender)
     }
     
     func edgePanGesture(edgePan: UIScreenEdgePanGestureRecognizer) {
@@ -72,22 +61,6 @@ class PresentViewController: UIViewController,UIViewControllerTransitioningDeleg
     }
     */
 
-    func animationController(forPresented presented: UIViewController, presenting: UIViewController, source: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return LSPresentTransition()
-    }
-    
-    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
-        return LSDismissTransition()
-    }
-    
-    //百分比Push
-    func interactionControllerForPresentation(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-        return self.percentDrivenTransition
-    }
-    //百分比Pop
-    func interactionControllerForDismissal(using animator: UIViewControllerAnimatedTransitioning) -> UIViewControllerInteractiveTransitioning? {
-        return self.percentDrivenTransition
-    }
 }
 
 

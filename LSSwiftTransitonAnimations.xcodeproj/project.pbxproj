@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021477C21EA45629006E1BFA /* SeguePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021477C11EA45629006E1BFA /* SeguePushViewController.swift */; };
+		021477C41EA45637006E1BFA /* SeguePopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021477C31EA45637006E1BFA /* SeguePopViewController.swift */; };
+		021477C61EA45658006E1BFA /* SeguePushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021477C51EA45658006E1BFA /* SeguePushTransition.swift */; };
+		021477C81EA45667006E1BFA /* SeguePopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021477C71EA45667006E1BFA /* SeguePopTransition.swift */; };
 		0247177C1E9F6D6300451145 /* LSPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247177B1E9F6D6300451145 /* LSPopTransition.swift */; };
 		0247177E1EA06B1D00451145 /* LSNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247177D1EA06B1D00451145 /* LSNavigationControllerDelegate.swift */; };
 		027E00161EA0AA3D002A423C /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E00151EA0AA3D002A423C /* PresentViewController.swift */; };
@@ -52,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021477C11EA45629006E1BFA /* SeguePushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeguePushViewController.swift; sourceTree = "<group>"; };
+		021477C31EA45637006E1BFA /* SeguePopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeguePopViewController.swift; sourceTree = "<group>"; };
+		021477C51EA45658006E1BFA /* SeguePushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeguePushTransition.swift; sourceTree = "<group>"; };
+		021477C71EA45667006E1BFA /* SeguePopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeguePopTransition.swift; sourceTree = "<group>"; };
 		0247177B1E9F6D6300451145 /* LSPopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPopTransition.swift; sourceTree = "<group>"; };
 		0247177D1EA06B1D00451145 /* LSNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSNavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		027E00151EA0AA3D002A423C /* PresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
@@ -201,6 +209,10 @@
 		02C23E6C1E9CAA7500777AC6 /* segue */ = {
 			isa = PBXGroup;
 			children = (
+				021477C11EA45629006E1BFA /* SeguePushViewController.swift */,
+				021477C31EA45637006E1BFA /* SeguePopViewController.swift */,
+				021477C51EA45658006E1BFA /* SeguePushTransition.swift */,
+				021477C71EA45667006E1BFA /* SeguePopTransition.swift */,
 			);
 			name = segue;
 			sourceTree = "<group>";
@@ -379,11 +391,15 @@
 				0247177E1EA06B1D00451145 /* LSNavigationControllerDelegate.swift in Sources */,
 				027E001C1EA0B42D002A423C /* LSDismissTransition.swift in Sources */,
 				027E00181EA0AA50002A423C /* DismissViewController.swift in Sources */,
+				021477C61EA45658006E1BFA /* SeguePushTransition.swift in Sources */,
+				021477C21EA45629006E1BFA /* SeguePushViewController.swift in Sources */,
 				027E001A1EA0B41B002A423C /* LSPresentTransition.swift in Sources */,
 				02C23E721E9CBE3900777AC6 /* LSTransition.swift in Sources */,
 				02C23E6E1E9CBA7C00777AC6 /* PushViewController.swift in Sources */,
 				02C23E701E9CBA8700777AC6 /* ToViewController.swift in Sources */,
 				02C23ED21E9E2DE900777AC6 /* LSColor.swift in Sources */,
+				021477C41EA45637006E1BFA /* SeguePopViewController.swift in Sources */,
+				021477C81EA45667006E1BFA /* SeguePopTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

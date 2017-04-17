@@ -117,17 +117,17 @@
                     </view>
                     <navigationItem key="navigationItem" title="Present" id="zcK-db-tOb"/>
                     <connections>
-                        <segue destination="Mgg-Ks-Lap" kind="show" identifier="present" id="Nj9-Rr-MmX"/>
+                        <segue destination="Mgg-Ks-Lap" kind="modal" identifier="present" id="Nj9-Rr-MmX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bLf-I7-1XA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="989.60000000000002" y="183.95802098950526"/>
         </scene>
-        <!--View Controller-->
+        <!--Segue Push View Controller-->
         <scene sceneID="j0y-M1-D64">
             <objects>
-                <viewController id="hOd-W6-qRz" sceneMemberID="viewController">
+                <viewController id="hOd-W6-qRz" customClass="SeguePushViewController" customModule="LSSwiftTransitonAnimations" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qbI-37-k7S"/>
                         <viewControllerLayoutGuide type="bottom" id="Tyg-SL-EFz"/>
@@ -144,12 +144,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ONW-Nr-4aj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="990" y="890"/>
+            <point key="canvasLocation" x="990" y="913"/>
         </scene>
-        <!--View Controller-->
+        <!--Segue Pop View Controller-->
         <scene sceneID="0yn-ur-WC9">
             <objects>
-                <viewController id="tLf-5t-kRT" sceneMemberID="viewController">
+                <viewController id="tLf-5t-kRT" customClass="SeguePopViewController" customModule="LSSwiftTransitonAnimations" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Z7b-Vr-bDg"/>
                         <viewControllerLayoutGuide type="bottom" id="w2q-l8-q9u"/>
