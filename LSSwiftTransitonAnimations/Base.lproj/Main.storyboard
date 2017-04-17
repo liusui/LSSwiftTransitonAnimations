@@ -69,7 +69,6 @@
                     <connections>
                         <segue destination="eXG-kp-2cZ" kind="push" identifier="push&amp;pop" id="6Eb-MB-ZNc"/>
                         <segue destination="xKA-NL-3aT" kind="push" identifier="modal" id="aEW-h1-weL"/>
-                        <segue destination="hOd-W6-qRz" kind="push" identifier="segue" id="ujg-HA-IN5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -123,47 +122,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bLf-I7-1XA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="989.60000000000002" y="183.95802098950526"/>
-        </scene>
-        <!--Segue Push View Controller-->
-        <scene sceneID="j0y-M1-D64">
-            <objects>
-                <viewController id="hOd-W6-qRz" customClass="SeguePushViewController" customModule="LSSwiftTransitonAnimations" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="qbI-37-k7S"/>
-                        <viewControllerLayoutGuide type="bottom" id="Tyg-SL-EFz"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="wmS-ru-vJs">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="3SH-kJ-Gwp"/>
-                    <connections>
-                        <segue destination="tLf-5t-kRT" kind="push" id="acN-2B-VF7"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ONW-Nr-4aj" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="990" y="913"/>
-        </scene>
-        <!--Segue Pop View Controller-->
-        <scene sceneID="0yn-ur-WC9">
-            <objects>
-                <viewController id="tLf-5t-kRT" customClass="SeguePopViewController" customModule="LSSwiftTransitonAnimations" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Z7b-Vr-bDg"/>
-                        <viewControllerLayoutGuide type="bottom" id="w2q-l8-q9u"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ctc-bx-8dB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="YoS-ZQ-Ph4"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pYs-s7-x19" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1844" y="890"/>
         </scene>
         <!--Dismiss View Controller-->
         <scene sceneID="fje-Qy-rlR">
@@ -223,8 +181,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="1Ez-Ns-C8o">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="1" green="0.92824835224974678" blue="0.87975325675543214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="hw7-rv-hsN">
                                     <size key="itemSize" width="129" height="129"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -278,7 +236,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="1Ez-Ns-C8o" secondAttribute="trailing" id="8ex-H6-eTv"/>
-                            <constraint firstItem="1Ez-Ns-C8o" firstAttribute="top" secondItem="QxX-xi-Hay" secondAttribute="bottom" constant="-64" id="GN4-ey-Q49"/>
+                            <constraint firstItem="1Ez-Ns-C8o" firstAttribute="top" secondItem="QxX-xi-Hay" secondAttribute="bottom" id="GN4-ey-Q49"/>
                             <constraint firstItem="1Ez-Ns-C8o" firstAttribute="leading" secondItem="gNF-c0-pqD" secondAttribute="leading" id="hKj-yk-85f"/>
                             <constraint firstItem="C7O-rk-E8I" firstAttribute="top" secondItem="1Ez-Ns-C8o" secondAttribute="bottom" id="r6d-fb-hAY"/>
                         </constraints>

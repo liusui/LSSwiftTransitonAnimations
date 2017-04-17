@@ -10,7 +10,7 @@ import UIKit
 
 extension UIColor {
     static func navigationBarBackgroundColor() -> UIColor {
-        return generateColor(23.0, green: 29.0, blue: 32.0, alpha: 1)
+        return generateColor(232.0, green: 198.0, blue: 180.0, alpha: 1)
     }
     
     static func navigationBarTintColor() -> UIColor {

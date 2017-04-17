@@ -19,8 +19,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let navigationBarAppearace = UINavigationBar.appearance()
         navigationBarAppearace.titleTextAttributes = [NSFontAttributeName: UIFont(name: "Dosis-SemiBold", size: 21)!,
                                                        NSForegroundColorAttributeName: UIColor.navigationBarTintColor()]
-//        UINavigationBar.appearance().barTintColor = UIColor.navigationBarBackgroundColor()
-//        navigationBarAppearace.isTranslucent = false
+        UINavigationBar.appearance().barTintColor = UIColor.navigationBarBackgroundColor()
+        navigationBarAppearace.isTranslucent = false
         return true
     }
 
