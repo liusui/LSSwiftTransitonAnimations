@@ -69,7 +69,7 @@
                     <connections>
                         <segue destination="eXG-kp-2cZ" kind="push" identifier="push&amp;pop" id="6Eb-MB-ZNc"/>
                         <segue destination="xKA-NL-3aT" kind="push" identifier="modal" id="aEW-h1-weL"/>
-                        <segue destination="hOd-W6-qRz" kind="push" id="ujg-HA-IN5"/>
+                        <segue destination="hOd-W6-qRz" kind="push" identifier="segue" id="ujg-HA-IN5"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
