@@ -19,7 +19,7 @@ class PushViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-        self.navigationController?.delegate = self
+        self.navigationController?.delegate = LSNavigationControllerDelegate()
     }
 
     override func didReceiveMemoryWarning() {
@@ -59,7 +59,7 @@ extension PushViewController: UICollectionViewDataSource,UICollectionViewDelegat
 extension PushViewController: UINavigationControllerDelegate{
     func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         if operation == UINavigationControllerOperation.push {
-            return LSTransition()
+            return LSPushTransition()
         }
         return nil
     }

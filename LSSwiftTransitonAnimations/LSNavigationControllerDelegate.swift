@@ -15,7 +15,7 @@ class LSNavigationControllerDelegate: NSObject,UINavigationControllerDelegate{
     
     func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
         if operation == UINavigationControllerOperation.push {
-            return LSTransition()
+            return LSPushTransition()
         }
         return nil
     }

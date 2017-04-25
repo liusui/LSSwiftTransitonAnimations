@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		021477CA1EA4B8CA006E1BFA /* LSTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021477C91EA4B8CA006E1BFA /* LSTransition.swift */; };
 		0247177C1E9F6D6300451145 /* LSPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247177B1E9F6D6300451145 /* LSPopTransition.swift */; };
 		0247177E1EA06B1D00451145 /* LSNavigationControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0247177D1EA06B1D00451145 /* LSNavigationControllerDelegate.swift */; };
 		027E00161EA0AA3D002A423C /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E00151EA0AA3D002A423C /* PresentViewController.swift */; };
@@ -22,7 +23,7 @@
 		02C23E5D1E9B8E2400777AC6 /* LSSwiftTransitonAnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E5C1E9B8E2400777AC6 /* LSSwiftTransitonAnimationsUITests.swift */; };
 		02C23E6E1E9CBA7C00777AC6 /* PushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E6D1E9CBA7C00777AC6 /* PushViewController.swift */; };
 		02C23E701E9CBA8700777AC6 /* ToViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E6F1E9CBA8700777AC6 /* ToViewController.swift */; };
-		02C23E721E9CBE3900777AC6 /* LSTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E711E9CBE3900777AC6 /* LSTransition.swift */; };
+		02C23E721E9CBE3900777AC6 /* LSPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23E711E9CBE3900777AC6 /* LSPushTransition.swift */; };
 		02C23EC01E9E2BEC00777AC6 /* LSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C23EBF1E9E2BEC00777AC6 /* LSCollectionCell.swift */; };
 		02C23EC91E9E2C2100777AC6 /* Dosis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02C23EC21E9E2C2100777AC6 /* Dosis-Bold.otf */; };
 		02C23ECA1E9E2C2100777AC6 /* Dosis-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 02C23EC31E9E2C2100777AC6 /* Dosis-ExtraBold.otf */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		021477C91EA4B8CA006E1BFA /* LSTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTransition.swift; sourceTree = "<group>"; };
 		0247177B1E9F6D6300451145 /* LSPopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPopTransition.swift; sourceTree = "<group>"; };
 		0247177D1EA06B1D00451145 /* LSNavigationControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSNavigationControllerDelegate.swift; sourceTree = "<group>"; };
 		027E00151EA0AA3D002A423C /* PresentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +75,7 @@
 		02C23E5E1E9B8E2400777AC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02C23E6D1E9CBA7C00777AC6 /* PushViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushViewController.swift; sourceTree = "<group>"; };
 		02C23E6F1E9CBA8700777AC6 /* ToViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToViewController.swift; sourceTree = "<group>"; };
-		02C23E711E9CBE3900777AC6 /* LSTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSTransition.swift; sourceTree = "<group>"; };
+		02C23E711E9CBE3900777AC6 /* LSPushTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSPushTransition.swift; sourceTree = "<group>"; };
 		02C23EBF1E9E2BEC00777AC6 /* LSCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSCollectionCell.swift; sourceTree = "<group>"; };
 		02C23EC21E9E2C2100777AC6 /* Dosis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-Bold.otf"; sourceTree = "<group>"; };
 		02C23EC31E9E2C2100777AC6 /* Dosis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dosis-ExtraBold.otf"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				0247177D1EA06B1D00451145 /* LSNavigationControllerDelegate.swift */,
+				021477C91EA4B8CA006E1BFA /* LSTransition.swift */,
 			);
 			name = LSTransition;
 			sourceTree = "<group>";
@@ -180,7 +183,7 @@
 				02C23E6D1E9CBA7C00777AC6 /* PushViewController.swift */,
 				02C23EBF1E9E2BEC00777AC6 /* LSCollectionCell.swift */,
 				02C23E6F1E9CBA8700777AC6 /* ToViewController.swift */,
-				02C23E711E9CBE3900777AC6 /* LSTransition.swift */,
+				02C23E711E9CBE3900777AC6 /* LSPushTransition.swift */,
 				0247177B1E9F6D6300451145 /* LSPopTransition.swift */,
 			);
 			name = "push&pop";
@@ -372,8 +375,9 @@
 				027E001C1EA0B42D002A423C /* LSDismissTransition.swift in Sources */,
 				027E00181EA0AA50002A423C /* DismissViewController.swift in Sources */,
 				027E001A1EA0B41B002A423C /* LSPresentTransition.swift in Sources */,
-				02C23E721E9CBE3900777AC6 /* LSTransition.swift in Sources */,
+				02C23E721E9CBE3900777AC6 /* LSPushTransition.swift in Sources */,
 				02C23E6E1E9CBA7C00777AC6 /* PushViewController.swift in Sources */,
+				021477CA1EA4B8CA006E1BFA /* LSTransition.swift in Sources */,
 				02C23E701E9CBA8700777AC6 /* ToViewController.swift in Sources */,
 				02C23ED21E9E2DE900777AC6 /* LSColor.swift in Sources */,
 			);
